@@ -51,12 +51,43 @@ table {
   height: 100vh;
   width: 100vw;
 }
-.header-left {
+.frag-container {
   background-image: url("https://static.pexels.com/photos/34088/pexels-photo.jpg");
   background-size: cover;
   float: left;
   height: 100vh;
   width: 55%
+}
+.frag-container {
+	width: 30vw;
+	height: 100vh;
+	min-height: 550px;
+	max-width: 800px;
+	max-height: 1000px;
+	position: relative;
+	margin: 0 30vw 0 0;
+}
+
+.frag-container--right {
+	margin: 0 0 0 30vw;
+}
+.frag,
+.frag__piece {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+.frag {
+	transition: transform 0.2s ease-out;
+}
+.frag-container,
+.frag__piece {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
 }
 /*.header-left img {
   width: 100%;
