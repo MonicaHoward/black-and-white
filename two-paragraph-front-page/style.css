@@ -51,7 +51,6 @@ html, body {
   background: #333;
 }
 .page-container {
-	border: 1px solid green;
   background: #333;
   color: #EEE;
 	height: 100vh;
@@ -83,12 +82,16 @@ html, body {
 }
 .title ul {
 	float: left;
-
+	padding-left: 24%;
+	padding-top: 30%;
 
 }
+
 .title li {
-	float: left;
-	padding: 5%;
+	/*border: 1px solid orange;*/
+	font-size: .60em;
+	padding: 40%;
+	/*float: left;*/
 	/* Safari */
   -webkit-transform: rotate(90deg);
 
@@ -104,6 +107,10 @@ html, body {
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
+}
+a {
+	color: #fff;
+	text-decoration: none;
 }
 .paragraph-container {
 
@@ -121,10 +128,14 @@ html, body {
   margin-top: 5%;
 }
 .initials {
+	border: 1px solid #333;
 	clear: both;
-  color: #222;
-  font-size:15em;
+  color: #282828;
+  font-size: 15em;
 	padding-top: -20%;
   margin-right: 10%;
   text-align: right;
+}
+.initials p {
+	margin-top: -10%;
 }
