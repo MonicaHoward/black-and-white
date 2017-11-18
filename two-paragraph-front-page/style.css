@@ -51,26 +51,80 @@ html, body {
   background: #333;
 }
 .page-container {
+	border: 1px solid green;
   background: #333;
   color: #EEE;
-  height: 100vh;
-  padding: 5% 5% 0 5%;
+	height: 100vh;
+	/*margin-top: -10%;*/
+	overflow: auto;
+
 }
 .title {
-  font-size: 1.5em;
+	float: left;
+  font-size: 2.5em;
+	margin-top: 10%;
+}
+.title h1 {
+	float: left;
+	/* Safari */
+  -webkit-transform: rotate(90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+
+  /* IE */
+  -ms-transform: rotate(90deg);
+
+  /* Opera */
+  -o-transform: rotate(90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.title ul {
+	float: left;
+
+
+}
+.title li {
+	float: left;
+	padding: 5%;
+	/* Safari */
+  -webkit-transform: rotate(90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+
+  /* IE */
+  -ms-transform: rotate(90deg);
+
+  /* Opera */
+  -o-transform: rotate(90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
 }
 .paragraph-container {
-  font-size: 2.25em;
+
+	float: left;
+  font-size: 2em;
+  line-height: 1.4;
   width: 50vw;
-  padding: 5% 10% 0 10%;
+	margin-top: 10%;
+	/*margin-top: -20%;
+	margin-left: 20%;*/
+	/*margin: auto 0  0 20%;*/
+  /*padding: 5% 10% 0 10%;*/
 }
 .paragraph-container p:nth-child(2) {
   margin-top: 5%;
 }
 .initials {
+	clear: both;
   color: #222;
-  font-size: 10em;
-  margin-top: -2%;
+  font-size:15em;
+	padding-top: -20%;
   margin-right: 10%;
   text-align: right;
 }
